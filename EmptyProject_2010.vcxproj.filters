@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns:atg="http://atg.xbox.com" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{8e114980-c1a3-4ada-ad7c-83caadf5daeb}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="DXUT">
+      <UniqueIdentifier>{a43c5c25-0e86-4a20-b64a-883785ff74fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{2c3d4c8c-5d1a-459a-a05a-a4e4b608a44e}</UniqueIdentifier>
+      <Extensions>fx;fxh;hlsl</Extensions>
+    </Filter>
+    <Filter Include="maingame">
+      <UniqueIdentifier>{dc132a9c-10e7-4a30-a02c-66bcede467d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base Class">
+      <UniqueIdentifier>{dfa45e4f-79a7-458e-96c6-9fe700b702c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base Class\cScene">
+      <UniqueIdentifier>{760d25ae-6a59-4140-9864-5325356527f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes">
+      <UniqueIdentifier>{eee73b76-683f-48c1-8a2e-dadcbc5dad63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\cIngameScene">
+      <UniqueIdentifier>{d1e5a77f-cb72-4fa4-8698-65c4f90b7b32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\cLoadingScene">
+      <UniqueIdentifier>{a89c0b79-2ac5-4df6-b9d9-4fa7671f82f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\cIntroScene">
+      <UniqueIdentifier>{2673be0a-0b7c-4e80-b1a8-94abde26ca51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects">
+      <UniqueIdentifier>{7a61f752-ca25-4faf-a2d4-e99170619ad8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects\cButton">
+      <UniqueIdentifier>{39cb0b8b-6e1c-4703-abf4-9a48836126e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers">
+      <UniqueIdentifier>{4f720a29-174c-44a3-92e5-bd17841c0885}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers\cImageManager">
+      <UniqueIdentifier>{e4abc476-6deb-418b-9648-91073cc975c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers\cInputManager">
+      <UniqueIdentifier>{35b65c8e-f9f8-4c5c-8430-daa1e23bb975}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers\cSceneManager">
+      <UniqueIdentifier>{bc1c7687-47c2-4dce-8778-6edf7da2a45b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers\cSoundManager">
+      <UniqueIdentifier>{e57f4a1c-3f7d-4a5e-89cd-6c5fbc841c96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects\cProgressBar">
+      <UniqueIdentifier>{70fdf244-002f-4ff5-8d49-24b830118afc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\cActionScene">
+      <UniqueIdentifier>{b4b4710a-5580-4239-a75c-8ca48299d7fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects\LED">
+      <UniqueIdentifier>{21cac1f0-8723-472d-978e-b7c5a086cb6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects\LED\cPatternLED">
+      <UniqueIdentifier>{6671f991-1814-4bfc-aad8-860b1ac7296b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects\LED\cSelectLED">
+      <UniqueIdentifier>{39ac6183-87dc-41bc-9791-155ad4d9da7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects\Display">
+      <UniqueIdentifier>{3849e5e1-957e-406f-9f08-a9fd6d7f6201}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects\Display\cDisplaySong">
+      <UniqueIdentifier>{2ccc8ceb-d9f3-49d6-a5f8-e40760083e1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects\Display\cDisplayTime">
+      <UniqueIdentifier>{d2a8ebf2-e9f5-4789-936f-973004026bee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects\cOnOffButton">
+      <UniqueIdentifier>{9b9494b6-2394-4787-a581-edf6cd7a89dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects\Persons">
+      <UniqueIdentifier>{84278a05-250d-41ed-9895-c27625494aa7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects\Persons\cCorus">
+      <UniqueIdentifier>{f38ce5c2-4f5a-49ed-a2cc-78512809e333}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects\cPersonAdmin">
+      <UniqueIdentifier>{d218ddba-9ba1-4dea-82ae-865aba9ce5f1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DXUT\Optional\directx.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <ClInclude Include="DXUT\Core\DXUT.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTenum.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTmisc.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClCompile Include="DXUT\Core\DXUT.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTenum.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTmisc.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClInclude Include="DXUT\Optional\DXUTcamera.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTgui.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTres.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTsettingsdlg.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKmesh.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKmisc.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClCompile Include="DXUT\Optional\DXUTcamera.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTgui.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTres.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTsettingsdlg.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKmesh.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKmisc.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EmptyProject.cpp" />
+    <ClCompile Include="maingame.cpp">
+      <Filter>maingame</Filter>
+    </ClCompile>
+    <ClCompile Include="cSceneManager.cpp">
+      <Filter>Managers\cSceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="cImageManager.cpp">
+      <Filter>Managers\cImageManager</Filter>
+    </ClCompile>
+    <ClCompile Include="cScene.cpp">
+      <Filter>Base Class\cScene</Filter>
+    </ClCompile>
+    <ClCompile Include="cLoadingScene.cpp">
+      <Filter>Scenes\cLoadingScene</Filter>
+    </ClCompile>
+    <ClCompile Include="cIntroScene.cpp">
+      <Filter>Scenes\cIntroScene</Filter>
+    </ClCompile>
+    <ClCompile Include="cIngameScene.cpp">
+      <Filter>Scenes\cIngameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="cButton.cpp">
+      <Filter>objects\cButton</Filter>
+    </ClCompile>
+    <ClCompile Include="cInputManager.cpp">
+      <Filter>Managers\cInputManager</Filter>
+    </ClCompile>
+    <ClCompile Include="cPatternLED.cpp">
+      <Filter>objects\LED\cPatternLED</Filter>
+    </ClCompile>
+    <ClCompile Include="cSelectLED.cpp">
+      <Filter>objects\LED\cSelectLED</Filter>
+    </ClCompile>
+    <ClCompile Include="cSoundManager.cpp">
+      <Filter>Managers\cSoundManager</Filter>
+    </ClCompile>
+    <ClCompile Include="cDisplaySong.cpp">
+      <Filter>objects\Display\cDisplaySong</Filter>
+    </ClCompile>
+    <ClCompile Include="cOnOffButton.cpp">
+      <Filter>objects\cOnOffButton</Filter>
+    </ClCompile>
+    <ClCompile Include="cDisplayTime.cpp">
+      <Filter>objects\Display\cDisplayTime</Filter>
+    </ClCompile>
+    <ClCompile Include="cProgressBar.cpp">
+      <Filter>objects\cProgressBar</Filter>
+    </ClCompile>
+    <ClCompile Include="cActionScene.cpp">
+      <Filter>Scenes\cActionScene</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameAni.cpp">
+      <Filter>objects\Persons\cCorus</Filter>
+    </ClCompile>
+    <ClCompile Include="cPersonAdmin.cpp">
+      <Filter>objects\cPersonAdmin</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="maingame.h">
+      <Filter>maingame</Filter>
+    </ClInclude>
+    <ClInclude Include="singleton.h" />
+    <ClInclude Include="cSceneManager.h">
+      <Filter>Managers\cSceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="cImageManager.h">
+      <Filter>Managers\cImageManager</Filter>
+    </ClInclude>
+    <ClInclude Include="cScene.h">
+      <Filter>Base Class\cScene</Filter>
+    </ClInclude>
+    <ClInclude Include="cLoadingScene.h">
+      <Filter>Scenes\cLoadingScene</Filter>
+    </ClInclude>
+    <ClInclude Include="cIntroScene.h">
+      <Filter>Scenes\cIntroScene</Filter>
+    </ClInclude>
+    <ClInclude Include="cIngameScene.h">
+      <Filter>Scenes\cIngameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="cButton.h">
+      <Filter>objects\cButton</Filter>
+    </ClInclude>
+    <ClInclude Include="cInputManager.h">
+      <Filter>Managers\cInputManager</Filter>
+    </ClInclude>
+    <ClInclude Include="cPatternLED.h">
+      <Filter>objects\LED\cPatternLED</Filter>
+    </ClInclude>
+    <ClInclude Include="cSelectLED.h">
+      <Filter>objects\LED\cSelectLED</Filter>
+    </ClInclude>
+    <ClInclude Include="cSoundManager.h">
+      <Filter>Managers\cSoundManager</Filter>
+    </ClInclude>
+    <ClInclude Include="cDisplaySong.h">
+      <Filter>objects\Display\cDisplaySong</Filter>
+    </ClInclude>
+    <ClInclude Include="cOnOffButton.h">
+      <Filter>objects\cOnOffButton</Filter>
+    </ClInclude>
+    <ClInclude Include="cDisplayTime.h">
+      <Filter>objects\Display\cDisplayTime</Filter>
+    </ClInclude>
+    <ClInclude Include="cProgressBar.h">
+      <Filter>objects\cProgressBar</Filter>
+    </ClInclude>
+    <ClInclude Include="cActionScene.h">
+      <Filter>Scenes\cActionScene</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameAni.h">
+      <Filter>objects\Persons\cCorus</Filter>
+    </ClInclude>
+    <ClInclude Include="cPersonAdmin.h">
+      <Filter>objects\cPersonAdmin</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CLInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </CLInclude>
+    <ResourceCompile Include="EmptyProject.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
