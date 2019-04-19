@@ -38,7 +38,6 @@ void cSoundManager::Update()
 				pStopSound();
 
 			curnTime = g_nowTime + 1000;
-
 		}
 	}
 }

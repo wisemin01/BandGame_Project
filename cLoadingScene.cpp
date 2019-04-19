@@ -18,7 +18,6 @@ void cLoadingScene::Init()
 void cLoadingScene::Update()
 {
 	LoadingFunc();
-	//if (GETKEY_DOWN(VK_LBUTTON))
 	SCENEMANAGER->ChangeScene("action");
 }
 

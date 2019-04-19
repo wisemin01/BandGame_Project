@@ -19,6 +19,7 @@ void maingame::Init()
 	devMode.dmFields = DM_BITSPERPEL | DM_PELSHEIGHT | DM_PELSWIDTH;
 	ChangeDisplaySettings(&devMode, CDS_FULLSCREEN);
 #endif
+
 	// 여기서 각 씬들을 모두 추가
 	SCENEMANAGER->AddScene("loading", new cLoadingScene);
 	SCENEMANAGER->AddScene("action", new cActionScene);
